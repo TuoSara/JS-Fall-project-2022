@@ -1,6 +1,6 @@
 
-// In the case new task field is left blank,
-// shoot out a visible error.
+/* if no task written,
+show error message */
 function error() {
     var border = document.getElementById("grad")
     var txt = document.getElementById("errormsg")    
@@ -43,9 +43,10 @@ function validateForm(){
     document.getElementById("myTask").value = "";
 
     var span = document.createElement("SPAN");
-    var txt = document.createTextNode("X");
+    var closebtn = document.createElement("button");
+    closebtn.innerHTML = "X";
     span.className = "close";
-    span.appendChild(txt);
+    span.appendChild(closebtn);
     li.appendChild(span);
   
     for (i = 0; i < close.length; i++) {

@@ -3,15 +3,15 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <script  src="js/script.js"> </script>
-    <title> Pojjaat.todo </title>
+    <title> To-do list </title>
 </head>
 <body onload="clearError()">
     <div id="grad">
         <div>
         <h1> TO-DO LIST </h1>
-        <p id="errormsg"> "new task" can't be left empty! <br></p>
+        <p id="errormsg"> "new task" can't be empty! <br></p>
             <input type="text" id="myTask" placeholder=" new task..."> </input>
-            <span onclick="validateForm()"> add </span>
+            <button onclick="validateForm()"> add </button>
 
             <ul id="tasks">
                 

@@ -4,7 +4,7 @@
    
 
 #grad {
-    background-color: #7a9e9f;
+    background-color: #666A86;
     padding-top: 10%;
     padding-bottom: 10%;
     border: 2px solid #4f6367;
@@ -15,7 +15,7 @@
 body {
     text-align: center;
     font-family:sans-serif;
-    background-color:#b8d8d8;
+    background-color:#788AA3;
     padding: 15%;
     padding-top: 1%;
     
@@ -26,7 +26,7 @@ div {
 }
 
 h1 {
-    font-style: oblique;
+    
     color:#eef5db;
     text-shadow: 2px 2px black;
     
@@ -43,15 +43,11 @@ input[type=text] {
     background-color: #eef5db;
 }
 
-span {
+button {
     text-align: center;
-    font-style: oblique;
-    font-weight: bolder;
-    width: 60px;
+    width: 40px;
     padding: 1%;
-    background-color: #fe5f55;
-    border: 1px solid #d45147;
-    box-shadow: 3px 2px #83312bb6;
+    background-color: #92B6B1;
     border-radius: 12px;
 }
 
@@ -66,9 +62,12 @@ li {
     box-shadow: 4px 4px #4f6367;
     border-radius: 12px;
 }
-
+closebtn {
+    width: 15px;
+}
 
 #errormsg {
     color:#7a9e9f;
     font-weight: bolder;
+    
 }
