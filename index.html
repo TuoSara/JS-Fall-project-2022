@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script  src="js/script.js"> </script>
+    <title> Pojjaat.todo </title>
+</head>
+<body onload="clearError()">
+    <div id="grad">
+        <div>
+        <h1> TO-DO LIST </h1>
+        <p id="errormsg"> "new task" can't be left empty! <br></p>
+            <input type="text" id="myTask" placeholder=" new task..."> </input>
+            <span onclick="validateForm()"> add </span>
+
+            <ul id="tasks">
+                
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>
