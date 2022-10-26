@@ -15,7 +15,7 @@ function error() {
 
 // does the exact opposite of error()
 function clearError() {
-    // This is some mad bubblegum but hey, as long as it works.
+  
     var element = document.getElementById("grad")
     element.style.borderColor = "#4f6367";
     
